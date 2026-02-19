@@ -1,0 +1,93 @@
+#footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(20, 20, 20, 0.35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 2em;
+    z-index: 100;
+    box-shadow: 0 -2px 16px 0 rgba(0,0,0,0.25);
+}
+
+#main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#left-footer, #right-footer {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+#interview {
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-y: auto;
+    flex: 1;
+    min-height: 0;
+    padding-bottom: 60px;
+}
+
+#footer img {
+    height: 32px;
+    width: auto;
+    display: block;
+}
+.floating-img {
+    transition: box-shadow 0.4s cubic-bezier(.4,1.6,.6,1), transform 0.4s cubic-bezier(.4,1.6,.6,1);
+    will-change: transform, box-shadow;
+    animation: floaty 5s ease-in-out infinite alternate;
+    background-color: transparent;
+}
+
+@keyframes floaty {
+    0% {
+        transform: translateY(0px) scale(1);
+    }
+    40% {
+        transform: translateY(-10px) scale(1.01);
+    }
+    60% {
+        transform: translateY(-14px) scale(1.02);
+    }
+    100% {
+        transform: translateY(0px) scale(1);
+    }
+}
+
+/* gold hover */
+.floating-img:hover {
+    filter: drop-shadow(0 0 12px gold) drop-shadow(0 0 24px gold);
+    z-index: 2;
+}
+html {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    background-image: url('img/background.png');
+    background-repeat: repeat;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+#time, #date {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
