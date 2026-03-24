@@ -27,6 +27,7 @@ document.body.onload = () => {
         ['gaga.png', 'https://www.youtube.com/watch?v=2Abk1jAONjw', 'gaga'],
         ['sonar.png', 'https://www.youtube.com/watch?v=PwOgjDqt9BM', 'atrevete-a-soñar'],
         ['wassabi.png', 'https://www.youtube.com/watch?v=8cJiBArztwA', 'wassabi'],
+        ['one-direction.png', 'https://www.youtube.com/watch?v=Y1xs_xPb46M', 'one-direction'],
     ];
 
     const maxImgWidth = 100;
