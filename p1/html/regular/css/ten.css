@@ -1,0 +1,368 @@
+/* fade in header, media stuff */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: none; }
+}
+
+@keyframes slideIn {
+    from { opacity: 1; transform: translateY(-100%); }
+    to { opacity: 1; transform: translateY(0px); }
+}
+
+/* Phone: up to 600px */
+@media only screen and (max-width: 600px) {
+    #title {
+        display: flex;
+        max-width: 100%;
+    }
+    body {
+        padding: 0.5rem;
+    }
+    header {
+        padding: 0.5rem 0;
+        display: flex;
+        width: 100%;
+    }
+    h1, h2, h3 {
+        font-size: 1.1em;
+    }
+    .menu-header, .menu-row {
+        flex-direction: column;
+        font-size: 0.98em;
+    }
+    .menu-header span, .menu-row span {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #motto-container {
+        flex-direction: column;
+    }
+    #motto-container * {
+        width: 100%;
+    }
+}
+
+/* Tablet: 601px to 900px */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+        padding: 1rem;
+    }
+    header {
+        padding: 1rem 0;
+    }
+    h1, h2, h3 {
+        font-size: 1.3em;
+    }
+    .menu-header, .menu-row {
+        font-size: 1.05em;
+    }
+    .menu-header span, .menu-row span {
+        padding: 0.5rem 0.25rem;
+    }
+    #motto-container {
+        flex-direction: row;
+    }
+    #motto-container * {
+        width: 50%;
+    }
+}
+
+/* Computer: 901px and up */
+@media only screen and (min-width: 901px) {
+    body {
+        padding: 2rem 10vw;
+    }
+    header {
+        padding: 2rem 0 1rem 0;
+    }
+    h1 {
+        font-size: 2.2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    .menu-header, .menu-row {
+        flex-direction: row;
+        font-size: 1.1em;
+    }
+    .menu-header span, .menu-row span {
+        padding: 1rem;
+    }
+    #motto-container {
+        flex-direction: row;
+    }
+    #motto-container * {
+        width: 50%;
+    }
+}
+
+header > * {
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+}
+header > *:nth-child(1) { animation-delay: 0.1s; }
+header > *:nth-child(2) { animation-delay: 0.5s; }
+header > *:nth-child(3) { animation-delay: 1s; }
+
+/* flexbox my beloved */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(89, 151, 161);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.menu-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu-header {
+    text-align: center;
+    margin-bottom: 1rem;
+    display: flex;
+    width: 100%;
+    background-color: rgb(205, 239, 245);
+}
+
+#motto-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#motto-container * {
+    width: 50%;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#motto-container img {
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: contain;
+}
+
+.menu-row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(205, 239, 245);
+    flex: 1;
+}
+
+.menu-row > * {
+    width: 33.33%;
+    /* height: 100%; */
+}
+
+.item-image {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.item-slide:hover .item-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+    animation: slideIn 1s ease forwards;
+}
+
+.item-slide {
+    display: flex;
+    position: relative;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.item {
+    /* position: absolute; */
+    text-align: center;
+    z-index: 1;
+    padding: 0.5rem;
+}
+
+span {
+    flex: 1;
+    border: 0.1rem solid black;
+    display: flex;
+}
+
+#title {
+    background-color: rgb(89, 151, 161);
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+#subtitle {
+}
+
+#address {
+}
+
+#motto {
+}
+
+#breakfast {
+}
+
+#table-breakfast {
+}
+
+#item-header {
+}
+
+#price-header {
+}
+
+#description-header {
+}
+
+#seasonal-lunch {
+}
+
+#lunch-note {
+}
+
+#table-lunch {
+}
+
+#item-header-lunch {
+}
+
+#price-header-lunch {
+}
+
+#description-header-lunch {
+}
+
+#small-bites {
+}
+
+#table-small-bites {
+}
+
+#item-header-small-bites {
+}
+
+#price-header-small-bites {
+}
+
+#description-header-small-bites {
+}
+
+#a-la-carte {
+}
+
+#table-a-la-carte {
+}
+
+#item-header-a-la-carte {
+}
+
+#price-header-a-la-carte {
+}
+
+#kids-menu {
+}
+
+#table-kids-menu {
+}
+
+#item-header-kids-menu {
+}
+
+#price-header-kids-menu {
+}
+
+#description-header-kids-menu {
+}
+
+#dietary-info {
+}
+
+#coffee {
+}
+
+#house-brew {
+}
+
+#house-brew-table {
+}
+
+#v60-pour-over {
+}
+
+#v60-pour-over-desc {
+}
+
+#table-v60-pour-over {
+}
+
+#caffeinated-teas {
+}
+
+#caffeinated-teas-table {
+}
+
+#herbal-teas {
+}
+
+#herbal-teas-table {
+}
+
+#other-beverages {
+}
+
+#other-beverages-table {
+}
+
+#seasonal-drinks {
+}
+
+#seasonal-drinks-table {
+}
+
+#specialty-lattes {
+}
+
+#specialty-lattes-table {
+}
+
+#other-espresso {
+}
+
+#other-espresso-table {
+}
+
+#cocktails {
+}
+
+#cocktails-table {
+}
+
+#footer {
+}

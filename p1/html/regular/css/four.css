@@ -1,0 +1,184 @@
+/* goofy */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+* {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+th {
+    font-family: 'Bangers', cursive;
+    font-size: 1.25rem;
+}
+
+#title {
+    font-family: 'Bangers', cursive;
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+}
+
+#subtitle {
+    font-size: 2.5rem;
+    font-family: 'Comic Sans MS', cursive;
+    letter-spacing: 0.5rem;
+}
+
+#address {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+#motto {
+    font-style: italic;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+h2 {
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+}
+
+#breakfast {
+
+}
+
+#table-breakfast {
+}
+
+#item-header {
+}
+
+#price-header {
+}
+
+#description-header {
+}
+
+#seasonal-lunch {
+}
+
+#lunch-note {
+}
+
+#table-lunch {
+}
+
+#item-header-lunch {
+}
+
+#price-header-lunch {
+}
+
+#description-header-lunch {
+}
+
+#small-bites {
+}
+
+#table-small-bites {
+}
+
+#item-header-small-bites {
+}
+
+#price-header-small-bites {
+}
+
+#description-header-small-bites {
+}
+
+#a-la-carte {
+}
+
+#table-a-la-carte {
+}
+
+#item-header-a-la-carte {
+}
+
+#price-header-a-la-carte {
+}
+
+#kids-menu {
+}
+
+#table-kids-menu {
+}
+
+#item-header-kids-menu {
+}
+
+#price-header-kids-menu {
+}
+
+#description-header-kids-menu {
+}
+
+#dietary-info {
+}
+
+#coffee {
+}
+
+#house-brew {
+}
+
+#house-brew-table {
+}
+
+#v60-pour-over {
+}
+
+#v60-pour-over-desc {
+}
+
+#table-v60-pour-over {
+}
+
+#caffeinated-teas {
+}
+
+#caffeinated-teas-table {
+}
+
+#herbal-teas {
+}
+
+#herbal-teas-table {
+}
+
+#other-beverages {
+}
+
+#other-beverages-table {
+}
+
+#seasonal-drinks {
+}
+
+#seasonal-drinks-table {
+}
+
+#specialty-lattes {
+}
+
+#specialty-lattes-table {
+}
+
+#other-espresso {
+}
+
+#other-espresso-table {
+}
+
+#cocktails {
+}
+
+#cocktails-table {
+}
+
+#footer {
+}

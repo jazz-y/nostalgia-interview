@@ -1,0 +1,179 @@
+/* bold */
+@import url('https://fonts.googleapis.com/css2?family=Agu%20Display:wght@400&display=swap');
+
+* {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.25rem;
+}
+
+#title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+}
+
+#subtitle {
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#address {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+}
+
+#motto {
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+
+#breakfast {
+
+}
+
+#table-breakfast {
+}
+
+#item-header {
+}
+
+#price-header {
+}
+
+#description-header {
+}
+
+#seasonal-lunch {
+}
+
+#lunch-note {
+}
+
+#table-lunch {
+}
+
+#item-header-lunch {
+}
+
+#price-header-lunch {
+}
+
+#description-header-lunch {
+}
+
+#small-bites {
+}
+
+#table-small-bites {
+}
+
+#item-header-small-bites {
+}
+
+#price-header-small-bites {
+}
+
+#description-header-small-bites {
+}
+
+#a-la-carte {
+}
+
+#table-a-la-carte {
+}
+
+#item-header-a-la-carte {
+}
+
+#price-header-a-la-carte {
+}
+
+#kids-menu {
+}
+
+#table-kids-menu {
+}
+
+#item-header-kids-menu {
+}
+
+#price-header-kids-menu {
+}
+
+#description-header-kids-menu {
+}
+
+#dietary-info {
+}
+
+#coffee {
+}
+
+#house-brew {
+}
+
+#house-brew-table {
+}
+
+#v60-pour-over {
+}
+
+#v60-pour-over-desc {
+}
+
+#table-v60-pour-over {
+}
+
+#caffeinated-teas {
+}
+
+#caffeinated-teas-table {
+}
+
+#herbal-teas {
+}
+
+#herbal-teas-table {
+}
+
+#other-beverages {
+}
+
+#other-beverages-table {
+}
+
+#seasonal-drinks {
+}
+
+#seasonal-drinks-table {
+}
+
+#specialty-lattes {
+}
+
+#specialty-lattes-table {
+}
+
+#other-espresso {
+}
+
+#other-espresso-table {
+}
+
+#cocktails {
+}
+
+#cocktails-table {
+}
+
+#footer {
+}

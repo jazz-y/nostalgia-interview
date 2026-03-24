@@ -1,0 +1,8 @@
+/* simple, sticking to original proposal */
+@import url('../fonts/Playbill.ttf');
+
+
+.playbill-title {
+    font-family: Playbill, sans-serif;
+    font-size: 150px;
+}

@@ -1,0 +1,180 @@
+/* boxy */
+* {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border: 0.2rem solid black;
+    position: center;
+    padding: 0.2rem;
+}
+
+html {
+    border: 1rem inset rgb(226, 226, 226);
+}
+
+table * {
+    border: 0.1rem dashed grey;
+}
+
+#title {
+    padding: 1rem;
+    border: 1rem groove rgb(0, 0, 0);
+    margin: 0.5rem 0.5rem 2rem 0.5rem;
+}
+
+#subtitle {
+    padding: 1rem;
+    border: 1rem dotted rgb(145, 168, 218);
+    margin: 0.5rem 0.5rem 2rem 0.5rem;
+}
+
+#address {
+    border: 0.1rem solid gray;
+    padding: 0.5rem;
+    margin: 0.5rem 0.5rem 2rem 0.5rem;
+}
+
+#motto {
+    border: 0.3rem inset black;
+    padding: 0.5rem;
+}
+
+#breakfast {
+    border
+}
+
+#table-breakfast {
+}
+
+#item-header {
+}
+
+#price-header {
+}
+
+#description-header {
+}
+
+#seasonal-lunch {
+}
+
+#lunch-note {
+}
+
+#table-lunch {
+}
+
+#item-header-lunch {
+}
+
+#price-header-lunch {
+}
+
+#description-header-lunch {
+}
+
+#small-bites {
+}
+
+#table-small-bites {
+}
+
+#item-header-small-bites {
+}
+
+#price-header-small-bites {
+}
+
+#description-header-small-bites {
+}
+
+#a-la-carte {
+}
+
+#table-a-la-carte {
+}
+
+#item-header-a-la-carte {
+}
+
+#price-header-a-la-carte {
+}
+
+#kids-menu {
+}
+
+#table-kids-menu {
+}
+
+#item-header-kids-menu {
+}
+
+#price-header-kids-menu {
+}
+
+#description-header-kids-menu {
+}
+
+#dietary-info {
+}
+
+#coffee {
+}
+
+#house-brew {
+}
+
+#house-brew-table {
+}
+
+#v60-pour-over {
+}
+
+#v60-pour-over-desc {
+}
+
+#table-v60-pour-over {
+}
+
+#caffeinated-teas {
+}
+
+#caffeinated-teas-table {
+}
+
+#herbal-teas {
+}
+
+#herbal-teas-table {
+}
+
+#other-beverages {
+}
+
+#other-beverages-table {
+}
+
+#seasonal-drinks {
+}
+
+#seasonal-drinks-table {
+}
+
+#specialty-lattes {
+}
+
+#specialty-lattes-table {
+}
+
+#other-espresso {
+}
+
+#other-espresso-table {
+}
+
+#cocktails {
+}
+
+#cocktails-table {
+}
+
+#footer {
+}

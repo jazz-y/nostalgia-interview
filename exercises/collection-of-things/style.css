@@ -1,0 +1,25 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+}
+
+details {
+    cursor: pointer;
+}
+
+.indent {
+    margin-left: 20px;
+}
+
+summary::marker {
+    color: ;
+}
+
+img {
+    width: 150px;
+}

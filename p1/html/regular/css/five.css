@@ -1,0 +1,173 @@
+/* centered */
+@import url('https://fonts.googleapis.com/css2?family=Pinyon%20Script:wght@400&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Limelight:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM%20Fell%20French%20Canon:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dynalight:wght@400&display=swap');
+* {
+}
+
+body {
+    width: 50%;
+    position: relative;
+    padding: 5% 25% 5% 25%;
+}
+
+th {
+}
+
+h2 {
+}
+
+#title {
+}
+
+#subtitle {
+}
+
+#address {
+}
+
+#motto {
+}
+
+#breakfast {
+
+}
+
+#table-breakfast {
+}
+
+#item-header {
+}
+
+#price-header {
+}
+
+#description-header {
+}
+
+#seasonal-lunch {
+}
+
+#lunch-note {
+}
+
+#table-lunch {
+}
+
+#item-header-lunch {
+}
+
+#price-header-lunch {
+}
+
+#description-header-lunch {
+}
+
+#small-bites {
+}
+
+#table-small-bites {
+}
+
+#item-header-small-bites {
+}
+
+#price-header-small-bites {
+}
+
+#description-header-small-bites {
+}
+
+#a-la-carte {
+}
+
+#table-a-la-carte {
+}
+
+#item-header-a-la-carte {
+}
+
+#price-header-a-la-carte {
+}
+
+#kids-menu {
+}
+
+#table-kids-menu {
+}
+
+#item-header-kids-menu {
+}
+
+#price-header-kids-menu {
+}
+
+#description-header-kids-menu {
+}
+
+#dietary-info {
+}
+
+#coffee {
+}
+
+#house-brew {
+}
+
+#house-brew-table {
+}
+
+#v60-pour-over {
+}
+
+#v60-pour-over-desc {
+}
+
+#table-v60-pour-over {
+}
+
+#caffeinated-teas {
+}
+
+#caffeinated-teas-table {
+}
+
+#herbal-teas {
+}
+
+#herbal-teas-table {
+}
+
+#other-beverages {
+}
+
+#other-beverages-table {
+}
+
+#seasonal-drinks {
+}
+
+#seasonal-drinks-table {
+}
+
+#specialty-lattes {
+}
+
+#specialty-lattes-table {
+}
+
+#other-espresso {
+}
+
+#other-espresso-table {
+}
+
+#cocktails {
+}
+
+#cocktails-table {
+}
+
+#footer {
+}

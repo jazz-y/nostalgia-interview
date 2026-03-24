@@ -1,0 +1,497 @@
+/* fade in header, media stuff */
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Comfortaa:wght@300..700&display=swap');
+
+/* Phone: up to 600px */
+@media only screen and (max-width: 600px) {
+    #title {
+        display: flex;
+        max-width: 100%;
+    }
+    body {
+        /* padding: 0.5rem; */
+    }
+    header {
+        display: flex;
+        width: 100%;
+    }
+    h1, h2, h3 {
+        font-size: 1.1em;
+    }
+    .menu-header, .menu-row {
+        flex-direction: column;
+        font-size: 0.98em;
+    }
+    .menu-header span, .menu-row span {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #motto-container {
+        flex-direction: column;
+    }
+    #motto-container * {
+        /* width: 100%; */
+    }
+
+    /* Ensure up button is visible and sized for mobile */
+    #up-btn {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        padding: 0.5rem 0.8rem;
+        font-size: 1em;
+        z-index: 1000;
+        display: block;
+    }
+}
+
+/* Tablet: 601px to 900px */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+        padding: 1rem;
+    }
+    header {
+        /* padding: 1rem 0; */
+    }
+    h1, h2, h3 {
+        font-size: 1.3em;
+    }
+    .menu-header, .menu-row {
+        font-size: 1.05em;
+    }
+    .menu-header span, .menu-row span {
+        padding: 0.5rem 0.25rem;
+    }
+    #motto-container {
+        flex-direction: row;
+    }
+    #motto-container * {
+        /* width: 50%; */
+    }
+}
+
+/* Computer: 901px and up */
+@media only screen and (min-width: 901px) {
+    body {
+        /* padding: 2rem; */
+        max-width: 50%;
+    }
+    header {
+        /* padding: 2rem 0 1rem 0; */
+    }
+    h1 {
+        font-size: 2.2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    .menu-header, .menu-row {
+        flex-direction: row;
+        font-size: 1.1em;
+    }
+    .menu-header span, .menu-row span {
+        padding: 1rem;
+    }
+    #motto-container {
+        flex-direction: row;
+    }
+    #motto-container * {
+        /* width: 50%; */
+    }
+}
+
+* {
+    font-family: Comfortaa, sans-serif;
+}
+
+span {
+    border-radius: 0.5rem;
+    border: 0.2rem solid rgb(51, 147, 161);
+    background-color: rgb(205, 239, 245);
+}
+
+h2, li, #lunch-note, #v60-pour-over-desc {
+    background-color: rgb(235, 235, 235);
+
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/057/214/016/non_2x/peeling-paint-on-weathered-wooden-siding-showing-age-and-texture-black-and-white-close-up-simple-background-of-horizontal-lines-free-photo.jpg");
+    background-repeat: repeat;
+    background-size: 33.33% 33.33%;
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 90%;
+    height: 100%;
+}
+
+header * {
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: rgb(89, 151, 161);
+
+}
+header > *:nth-child(1) { animation-delay: 0.1s; }
+header > *:nth-child(2) { animation-delay: 0.5s; }
+header > *:nth-child(3) { animation-delay: 1s; }
+
+/* flexbox my beloved */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(89, 151, 161);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.menu-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu-header {
+    text-align: center;
+    margin-bottom: 1rem;
+    display: flex;
+    width: 100%;
+}
+
+nav * {
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 100%;
+}
+
+#up-btn {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 1000;
+    padding: 0.5rem 1rem;
+    background-color: rgb(89, 151, 161);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#motto-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-height: 20%;
+}
+
+#motto-container * {
+    /* width: 50%; */
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#motto-container img {
+    width: 100%;
+    /* max-width: 500px; */
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.menu-row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(205, 239, 245); */
+    flex: 1;
+}
+
+.menu-row > * {
+    width: 33.33%;
+    /* height: 100%; */
+}
+
+.item-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 1;
+    transform: translateY(100%);
+    transition: transform 1s ease;
+    border-radius: 0.5rem;
+     aspect-ratio: 1 / 1;
+}
+
+#first-item-image {
+    animation: nudgeUp 2s ease 0.5s;
+}
+
+.item-slide:hover .item-image {
+    transform: translateY(0);
+}
+
+
+
+.item-slide {
+    display: flex;
+    position: relative;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background-color: rgb(205, 239, 245);
+    border-radius: 0.5rem;
+}
+
+.item {
+    text-align: center;
+    z-index: 2;
+    padding: 0.5rem;
+    background-color: transparent;
+}
+
+span {
+    flex: 1;
+    /* border: 0.1rem solid black; */
+    display: flex;
+    background-color: rgb(205, 239, 245);
+
+}
+
+#title-img {
+    background-color: rgb(89, 151, 161);
+    display: flex;
+    margin: 0 auto;
+    max-width: 50%;
+    max-height: 40%;
+}
+
+
+#subtitle {
+}
+
+#address {
+    font-weight: bold;
+    margin: 0.5rem;
+    max-height: 10%;
+}
+
+#motto {
+    font-weight: bold;
+}
+
+#breakfast {
+}
+
+#table-breakfast {
+}
+
+#item-header {
+}
+
+#price-header {
+}
+
+#description-header {
+}
+
+#seasonal-lunch {
+}
+
+#lunch-note {
+}
+
+#table-lunch {
+}
+
+#item-header-lunch {
+}
+
+#price-header-lunch {
+}
+
+#description-header-lunch {
+}
+
+#small-bites {
+}
+
+#table-small-bites {
+}
+
+#item-header-small-bites {
+}
+
+#price-header-small-bites {
+}
+
+#description-header-small-bites {
+}
+
+#a-la-carte {
+}
+
+#table-a-la-carte {
+}
+
+#item-header-a-la-carte {
+}
+
+#price-header-a-la-carte {
+}
+
+#kids-menu {
+}
+
+#table-kids-menu {
+}
+
+#item-header-kids-menu {
+}
+
+#price-header-kids-menu {
+}
+
+#description-header-kids-menu {
+}
+
+#dietary-info li {
+    background-color: white;
+}
+
+#coffee p {
+    background-color: white;
+}
+
+#house-brew {
+}
+
+#house-brew-table {
+}
+
+#v60-pour-over {
+}
+
+#v60-pour-over-desc {
+}
+
+#table-v60-pour-over {
+}
+
+#caffeinated-teas {
+}
+
+#caffeinated-teas-table {
+}
+
+#herbal-teas {
+}
+
+#herbal-teas-table {
+}
+
+#other-beverages {
+}
+
+#other-beverages-table {
+}
+
+#seasonal-drinks {
+}
+
+#seasonal-drinks-table {
+}
+
+#specialty-lattes {
+}
+
+#specialty-lattes-table {
+}
+
+#other-espresso {
+}
+
+#other-espresso-table {
+}
+
+#cocktails {
+}
+
+#cocktails-table {
+}
+
+#footer img {
+    width: auto;
+    max-width: 500px;
+    height: auto;
+}
+
+footer p {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: none; }
+}
+
+@keyframes slideIn {
+    from { opacity: 1; transform: translateY(-100%); }
+    to { opacity: 1; transform: translateY(0px); }
+}
+
+@keyframes slideOut {
+    from { opacity: 1; transform: translateY(0px); }
+    to { opacity: 1; transform: translateY(-100%); }
+}
+
+@keyframes nudgeUp {
+    0% { transform: translateY(100%); }
+    25% { transform: translateY(30%); }
+    50% { transform: translateY(100%); }
+    75% { transform: translateY(30%); }
+    100% { transform: translateY(100%); }
+}
